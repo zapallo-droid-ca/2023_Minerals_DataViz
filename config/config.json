@@ -1,0 +1,25 @@
+[
+	{
+		"directory": [
+		{"wd_root":"C:/Users/jrab9/OneDrive/08.Github/2023.Minerals-DataViz/"},
+		{"wd_custom_libraries":"C:/Users/jrab9/OneDrive/08.Github/2023.Minerals-DataViz/utils/"}
+		],
+		
+		"data": [
+		{"root":"C:/Users/jrab9/OneDrive/08.Github/2023.Minerals-DataViz/data/"},
+		{"processed":"C:/Users/jrab9/OneDrive/08.Github/2023.Minerals-DataViz/data/processed_data/"},
+		{"raw":"C:/Users/jrab9/OneDrive/08.Github/2023.Minerals-DataViz/data/raw_data/"}
+		],
+				
+		"csvAttr_imp": [
+		{"sep": ";" , "encoding": "UTF-8"}
+		],
+		
+		"csvAttr_exp": [
+		{"index": "False", "sep": ";" , "encoding": "UTF-8"}
+		]
+		
+	}
+]
+
+

@@ -1,0 +1,44 @@
+Root Folder: Project Name or ID
+This is the main folder for your BI project. It should have a clear and descriptive name or ID to identify the project.
+
+Data Sources
+Store all the raw data files, databases, or external data sources you'll be using in your BI project. Subfolders could be organized by data source type (e.g., "Excel Files," "SQL Databases," "API Data," etc.).
+
+Data Processing
+This folder contains scripts, workflows, or tools used to clean, transform, and preprocess raw data into usable formats. Subfolders can be categorized based on data manipulation steps.
+
+Data Warehouse / Data Mart
+Store the structured and transformed data that's ready for analysis. This could include data warehouse schemas, star/snowflake schema diagrams, and related scripts.
+
+ETL (Extract, Transform, Load)
+Keep all scripts or workflows related to the extraction, transformation, and loading processes. Subfolders might include "Extract," "Transform," and "Load."
+
+Reports and Dashboards
+Store the outputs of your BI efforts, including report templates, dashboard designs, and any related assets. Subfolders could be organized by report type or dashboard name.
+
+Documentation
+Maintain project documentation, such as requirements, design documents, user guides, and technical specifications.
+
+Code or Scripts
+Keep any code or scripts used in your BI project, such as SQL queries, scripting languages (Python, R), and automation scripts.
+
+Testing and Quality Assurance
+Store test cases, test data, and any QA-related documentation.
+
+Deployment
+Store deployment scripts and documentation for moving your BI solution from development to production environments.
+
+Training and User Guides
+Provide user training materials, guides, and resources to help end-users understand and use the BI outputs effectively.
+
+Archives or Backups
+Store historical versions of your project files and data backups for reference or recovery.
+
+Dependencies and Libraries
+Store any third-party libraries, tools, or software dependencies used in your BI project.
+
+Security and Permissions
+Keep documents related to data security, access controls, and permissions management.
+
+Project Management
+If your BI project involves multiple team members, you might include project management-related folders, such as task lists, timelines, and communication logs.
