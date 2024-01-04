@@ -394,35 +394,6 @@ def ts_component_kmeans_preproc(data, index, columns, values, category):
 
 
 
-##-- HAMPEL FILTER FOR TS OUTLIERS
-def hampel_filter(data, target, index, windows_size, n_sigmas = 3):
-    """
-    Apply the Hampel filter to a time series.
-    
-    Parameters:
-    input_series (pd.Series): The input time series to filter.
-    window_size (int): The size of the rolling window (odd integer).
-    n_sigmas (int): The number of standard deviations to use as the threshold.
-    
-    Returns:
-    pd.DataFrame: The filtered data
-    """
-    result = data.copy()
-
-    #rolling values
-    median_value = data[target].rolling(window = windows_size, center = True).median()
-    std_value = data[target].rolling(window = windows_size, center = True).std()
-
-    threshold = n_sigmas * std_value
-
-    #outliers based on threshold
-    result['outlier'] = np.abs(data['residual'] - 1) > threshold
-    result[f'imputed_{target}_values'] = median_value[result['outlier']]
-    result[f'imputed_{target}_values'] = np.where(result['outlier'], result[f'imputed_{target}_values'], result[target])
-
-    return result
-
-
 
 
 
