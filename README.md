@@ -1,7 +1,7 @@
 ### Project: Minerals for Energy Transition
 
 ## Definitions:
-The project consolidates data on the production and trade of the main minerals required for the energy transition delivering an Power BI Dashboard.
+The project consolidates data on the production and trade of the main minerals required for the energy transition delivering a Power BI Dashboard.
 
 ## Project Resources:
 * ETL: The main process is in [this project](https://github.com/zapallo-droid-ca/2023.Minerals-ETL)
@@ -11,8 +11,7 @@ Further details of the minerals have been written in the [domain research doc](h
 
 ## Project Highlights:
 
-The project contains data about the production of Critical minerals for energy transitions as a tool for monitoring and describing the changes and evolution of the topic from 1970 to 2020 with an emphasis on taking one main numeric variable (production) and getting extra information trough feature engineering, for this case by decomposing the time series and calculating relative measurements, only as a complement in the last section two new numeric variables has been included just to give context on the trade profile of the countries.
-The first and main report presents the data as a time series showing the % of yearly change by mineral group and summarizing by a given range of years that can be dynamically changed with a slicer. The report has been designed to allow the user to explore curiously through drill-trough tools.
+The project contains data about the production of Critical minerals for energy transitions as a tool for monitoring and describing the changes and evolution of the topic from 1970 to 2020 with an emphasis on taking one main numeric variable (production) and getting extra information through feature engineering, for this case by decomposing the time series and calculating relative measurements, only as a complement in the last section two new numeric variables have been included just to give context on the trade profile of the countries. The first and main report presents the data as a time series showing the % of yearly change by mineral group and summarizing by a given range of years that can be dynamically changed with a slicer. The report has been designed to allow the user to explore curiously through drill-trough tools.
 
 *Report Sections:*
 •	Global View (main page) with % of yearly change by group of minerals
